@@ -1,16 +1,133 @@
-# React + Vite
+# 📝 Todo Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **Todo Management Application** built with **React.js**. This project allows users to add, edit, update, and filter tasks with a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 **Live Website:** https://todooooapppp.netlify.app/
 
-## React Compiler
+## 💻 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **GitHub:** https://github.com/farukyazir/TodoApp
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ➕ Add new tasks
+* ✏️ Edit existing tasks
+* 🔄 Update task status
+* 🗑️ Delete tasks
+* 🔍 Filter tasks by status
+* ✅ Completed tasks
+* ❌ Not Completed tasks
+* 📱 Responsive design
+* 🎨 Clean and simple UI
+* ⚡ Dynamic updates using React state
+
+## 🛠️ Technologies Used
+
+* ⚛️ React.js
+* 🟨 JavaScript
+* 🎨 CSS3
+* 📄 HTML5
+* ⚡ Vite
+* 🧠 React Hooks
+
+  * `useState`
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Header.jsx
+│   ├── Search.jsx
+│   ├── Filter.jsx
+│   └── Todo.jsx
+│
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/farukyazir/TodoApp.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd TodoApp
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in your terminal to view the application.
+
+## 🧩 Main Functionality
+
+### ➕ Add Todo
+
+Enter a task name and description, then click **Add Tasks** to create a new todo.
+
+### ✏️ Edit Todo
+
+Click the **Edit** button to edit the task name and description. Click **Update** to save the changes.
+
+### 🔄 Update Status
+
+Tasks can be changed between:
+
+* ✅ Completed
+* ❌ Not Completed
+
+### 🔍 Filter Tasks
+
+Tasks can be filtered using:
+
+* All
+* Completed
+* Not Completed
+
+## 📚 React Concepts Practiced
+
+This project demonstrates several important React concepts:
+
+* ⚛️ Functional Components
+* 📦 Props
+* 🧠 State Management
+* `useState`
+* 🎯 Event Handling
+* 🔀 Conditional Rendering
+* `.map()`
+* `.filter()`
+* 🔗 Passing functions through props
+* 📝 Controlled Inputs
+* 🔄 Dynamic UI Updates
+
+## 🎯 Project Objective
+
+The main objective of this project is to practice React state management, props, event handling, conditional rendering, and CRUD-style functionality while building a responsive Todo application.
+
+## 👨‍💻 Author
+
+**Faruk Yazir**
+
+🔗 LinkedIn: https://linkedin.com/in/farukyazir/
+
+## ⭐ Support
+
+If you like this project, consider giving the repository a ⭐ on GitHub!
